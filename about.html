@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="stylefaq.css">
+  <title>FAQ Template | CodyHouse</title>
+</head>
+<body>
+<header class="cd-header flex flex-column flex-center">
+  <div class="text-component text-center">
+    <h1>FAQ </h1>
+  </div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+  <ul class="cd-faq__categories">
+    <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Pertanyaan Umum</a></li>
+    <li><a class="cd-faq__category truncate" href="#payments">Pembayaran</a></li>
+    <li><a class="cd-faq__category truncate" href="#peraturan">Peraturan</a></li>
+  </ul> <!-- cd-faq__categories -->
+
+  <div class="cd-faq__items">
+    <ul id="basics" class="cd-faq__group">
+      <li class="cd-faq__title"><h2>Basics</h2></li>
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Bagaimana cara mendaftar?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Silahkan masuk menu login dan daftarkan disitu</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Bagaimana cara booking?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Untuk Sementara booking hanya bisa dilakukan dengan cara menelfon nomor yang tertera</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah akses transportasi mudah?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Akses transportasi yang dekat adalah busway dan angkot , karena lokasi kami dekat dengan jalan raya , untuk stasiun yang dekat ada stasiun cikini , gondangdia &senen kurang lebih jarak 400-500m </p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah akses makanan mudah?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Didekat kos kami terdapat beberapa warung makan , gojek juga diperbolehkan tetapi hanya sampai depan pagar kosan
+        </div> <!-- cd-faq__content -->
+      </li>
+    </ul> <!-- cd-faq__group -->
+
+
+    <ul id="payments" class="cd-faq__group">
+      <li class="cd-faq__title"><h2>Pembayaran</h2></li>
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Bagaimana cara membayar ?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Pembayaran dilakukan dengan cara transfer dan konfirmasi melalui nomor yang sudah disediakan</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah bisa transfer lewat bank apapun?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Tentu bisa , tetapi karena yang disediakan hanya bank bca jika menggunakan transfer dari bank lain akan kena charge</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+    </ul> <!-- cd-faq__group -->
+
+    <ul id="peraturan" class="cd-faq__group">
+      <li class="cd-faq__title"><h2>Peraturan</h2></li>
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah di kos ini boleh berdua?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Tidak , kosan ini hanya untuk single person (sendiri)</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah boleh membawa tamu?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Boleh tapi tamu dibatasi sampe jam 10 malam</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah bisa membawa hewan peliharaan?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Dilarang membawa hewan peliharaan</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+
+      <li class="cd-faq__item">
+        <a class="cd-faq__trigger" href="#0"><span>Apakah bisa sekamar berdua ?</span></a>
+        <div class="cd-faq__content">
+          <div class="text-component">
+            <p>Kosan ini hanya untuk satu orang</p>
+          </div>
+        </div> <!-- cd-faq__content -->
+      </li>
+    </ul> <!-- cd-faq__group -->
+
+  </div> <!-- cd-faq__items -->
+
+  <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="js/main.js"></script> 
+</body>
+</html>
